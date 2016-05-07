@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.uniritter.monitor.MonitorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-07T13:29:29" hostname="ZS-LAB103-65033" time="0.003">
+  <properties/>
+  <testcase name="contextLoads" classname="com.uniritter.monitor.MonitorApplicationTests" time="0.003"/>
+  <system-out><![CDATA[10:29:27.314 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.318 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:29:27.324 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:29:27.332 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.uniritter.monitor.MonitorApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+10:29:27.355 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@17b98b20 declaringClass = 'com.uniritter.monitor.MonitorApplicationTests', classes = '{class com.uniritter.monitor.MonitorApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+10:29:27.365 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.uniritter.monitor.MonitorApplicationTests]: class path resource [com/uniritter/monitor/MonitorApplicationTests-context.xml] does not exist
+10:29:27.365 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.uniritter.monitor.MonitorApplicationTests]: class path resource [com/uniritter/monitor/MonitorApplicationTestsContext.groovy] does not exist
+10:29:27.365 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.uniritter.monitor.MonitorApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:29:27.368 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.371 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.uniritter.monitor.MonitorApplicationTests]: using defaults.
+10:29:27.379 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:29:27.398 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6976e4a2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c9c7dc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@605506d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@46e32731, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b222652, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@f020871]
+10:29:27.401 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.402 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.402 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.403 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.405 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@70390a74 testClass = MonitorApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30dd7f3b testClass = MonitorApplicationTests, locations = '{}', classes = '{class com.uniritter.monitor.MonitorApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+10:29:27.406 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.406 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.uniritter.monitor.MonitorApplicationTests]
+10:29:27.408 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@70390a74 testClass = MonitorApplicationTests, testInstance = com.uniritter.monitor.MonitorApplicationTests@6a28a831, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30dd7f3b testClass = MonitorApplicationTests, locations = '{}', classes = '{class com.uniritter.monitor.MonitorApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+10:29:27.475 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+10:29:27.477 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:29:27.478 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:29:27.479 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+2016-05-07 10:29:27.744  INFO 8132 --- [    Test worker] c.u.monitor.MonitorApplicationTests      : Starting MonitorApplicationTests on ZS-LAB103-65033 with PID 8132 (C:\Users\eduardo_machado\Downloads\monitor\build\classes\test started by eduardo_machado in C:\Users\eduardo_machado\Downloads\monitor)
+2016-05-07 10:29:27.745  INFO 8132 --- [    Test worker] c.u.monitor.MonitorApplicationTests      : No active profile set, falling back to default profiles: default
+2016-05-07 10:29:27.784  INFO 8132 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29ad258: startup date [Sat May 07 10:29:27 BRT 2016]; root of context hierarchy
+2016-05-07 10:29:28.836  INFO 8132 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-07 10:29:29.981  INFO 8132 --- [    Test worker] c.u.monitor.MonitorApplicationTests      : Started MonitorApplicationTests in 2.499 seconds (JVM running for 3.349)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
